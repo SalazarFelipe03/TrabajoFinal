@@ -1,0 +1,56 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+
+h1{
+    background-color:rgb(175, 175, 175);
+    color: rgb(0, 0, 0);
+}
+
+spam{
+    animation-name: change-colors;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes change-colors{
+    0%{
+        color:red;
+    }
+    50%{
+        color: green;
+    }
+}
+
+h3{
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+.navbar-custom {
+    height: 70px;
+    background-color:rgb(29, 29, 30);
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+#absCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#title {
+    background-color: white;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(255, 111, 15);
+}  
